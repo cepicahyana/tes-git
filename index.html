@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh form pendaftaran</title>
+</head>
+<body>
+   <h1><center>FORMULIR PENDAFTARAN</center></h1>
+    <hr width="100%" align="left" color="red">
+    <p>Isilah seluruh kolom registrasi dengan benar</p>
+	<form method="post" action="output.php">
+    <table>
+    	<tr>
+    	    <td valign="top">Nama Depan</td>
+    	    <td><input type="text" name="nama_depan" placeholder="Masukan nama depan anda"></td>
+    	</tr>
+		<tr>
+    	    <td valign="top">Nama Belakang</td>
+    	    <td><input type="text" name="nama_belakang" placeholder="Masukan nama belakang anda"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Username</td>
+    	    <td><input type="text" name="username" placeholder="Masukan username"></td>
+    	</tr>
+    	<tr>
+               <td valign="top">Password</td>
+               <td><input type="password" name="password" placeholder="Password"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Email</td>
+    	    <td><input type="email" name="email" placeholder="Masukan email"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Jenis Kelamin</td>
+    	    <td>
+    	    	<input type="radio" name="l">Pria<br />
+    	    	<input type="radio" name="p">Perempuan
+    	    </td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Tanggal Lahir</td>
+    	    <td>
+    	       <input type="text" style="width: 25px" placeholder="dd">
+    	       <input type="text" style="width: 25px" placeholder="mm">
+    	       <input type="text" style="width: 50px" placeholder="yyyy">
+    	    </td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Hobi</td>
+    	    <td><input type="text" name="hobi" placeholder="hobi"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Sub Hobi</td>
+    	    <td>
+    	    	<input type="checkbox" name="B">Basket<br />
+    	    	<input type="checkbox" name="F">Futsal<br />
+				<input type="checkbox" name="V">Voli<br />
+				<input type="checkbox" name="Bm">Badminton<br />
+				<input type="checkbox" name="T">Terbang<br />
+    	    </td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Biografi</td>
+    	    <td><textarea placeholder="isilah biografi singkat anda" cols="30" rows="5"></textarea></td>
+    	</tr>
+    	<tr>
+    	    <td colspan="2"><input type="submit" value="Simpan"></td>
+    	</tr>
+    </table>
+	</form>
+</body>
+
+</html>
